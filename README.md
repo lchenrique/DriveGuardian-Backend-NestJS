@@ -18,8 +18,8 @@ A TrackMobil API é a parte backend de um sistema de rastreamento veicular avan�
 
     ````bash
     npm install
-    
-    docker-compose up
+
+    docker compose up
     ````
 5. A API estará acessível em: `http://localhost:8000`.
 
