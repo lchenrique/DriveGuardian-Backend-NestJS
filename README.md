@@ -21,7 +21,16 @@ A TrackMobil API é a parte backend de um sistema de rastreamento veicular avan�
 
     docker compose up
     ````
-5. A API estará acessível em: `http://localhost:8000`.
+
+- **Para melhor experiência Você pode usar a extensão do vsCode chamada Dev Containers**
+1. F1 > Dev Containers: Open folder container...
+2. Escolha a pasta raiz
+3. Na configuração seguinte escolha From 'docker-compose.yaml'
+4. Digite ZSH e marque a ZSH Plugins, Common Utilities e Shell History
+5. Clique em OK e selecione Keep Defaults e pronto
+
+
+
 
 ## Rotas da API
 
