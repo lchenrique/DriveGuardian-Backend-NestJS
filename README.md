@@ -17,6 +17,8 @@ A TrackMobil API é a parte backend de um sistema de rastreamento veicular avan�
 4. Execute o seguinte comando para iniciar o container da API usando o Docker Compose:
 
     ````bash
+    npm install
+    
     docker-compose up
     ````
 5. A API estará acessível em: `http://localhost:8000`.
