@@ -1,0 +1,26 @@
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/routes
+
+###
+GET http://localhost:3000/routes/64e7d7fc033d577d77ec82a6
+
+###
+POST  http://localhost:3000/routes
+Content-Type: application/json
+
+{
+"name":"Route test 1",
+"source_id":"ChIJ6wGkwwZ4mQARRqNv3Cw7IUs",
+"destination_id":"ChIJ03ug0Rp4mQAR3EO6rUh6x5s"
+}
+
+
+###
+
+GET  http://localhost:3000/places?text=rua visconde delamare, cacuia, 50
+
+### 
+
+GET  http://localhost:3000/directions?originId=ChIJ6wGkwwZ4mQARRqNv3Cw7IUs&destinationId=ChIJ03ug0Rp4mQAR3EO6rUh6x5s
